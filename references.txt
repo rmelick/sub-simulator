@@ -3,3 +3,19 @@ https://www.assetstore.unity3d.com/en/#!/content/45320
 
 Buttons
 https://www.assetstore.unity3d.com/en/#!/content/44118
+
+Swimming Pool
+http://www.turbosquid.com/FullPreview/Index.cfm/ID/305229
+
+
+Water
+https://docs.unity3d.com/Manual/HOWTO-Water.html
+
+
+Modding
+-----------------
+Asset Bundles
+https://docs.unity3d.com/Manual/AssetBundleFAQ.html
+
+Modding thread
+http://forum.unity3d.com/threads/making-a-moddable-game.312490/

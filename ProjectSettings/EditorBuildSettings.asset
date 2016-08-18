@@ -7,3 +7,5 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/_Project/MainMenu/MainMenu.unity
+  - enabled: 1
+    path: Assets/_Project/Courses/Pool1/Pool1Scene.unity
