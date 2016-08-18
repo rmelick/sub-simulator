@@ -1,3 +1,5 @@
+Third Party Tools
+-------------------------------------
 VS Code
 https://www.assetstore.unity3d.com/en/#!/content/45320
 
@@ -8,8 +10,13 @@ Swimming Pool
 http://www.turbosquid.com/FullPreview/Index.cfm/ID/305229
 
 
+Helpful Unity Docs
+-------------------------------------------------
 Water
 https://docs.unity3d.com/Manual/HOWTO-Water.html
+
+Scene thumbnails
+http://answers.unity3d.com/questions/324264/how-can-i-generate-a-thumbnail-from-the-screen.html
 
 
 Modding
