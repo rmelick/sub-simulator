@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: bf4bcd3fb23af4841a565b83f4585df9
+timeCreated: 1472368640
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f00000080000000810000008200000083000000840000008500000086000000870000008800000089000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 2185e8315acf78d83898bbb46ef256f5
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.78765374, y: 0.6180351, z: 0.38635805}
+      lookAt: {x: 0.2504685, y: 0.3458974, z: 0.23424348}
+      up: {x: -0.4215778, y: 0.8988999, z: -0.11937804}
+      fov: 55
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: C Battery
+    100002: C Battery 1
+    100004: C Battery 2
+    100006: C Battery 3
+    100008: C Battery 4
+    100010: C Battery 5
+    100012: C Battery 6
+    100014: C Battery 7
+    100016: Camera
+    100018: COMPONENT10
+    100020: COMPONENT11
+    100022: COMPONENT12
+    100024: COMPONENT13
+    100026: COMPONENT14
+    100028: COMPONENT15
+    100030: COMPONENT16
+    100032: COMPONENT18
+    100034: COMPONENT19
+    100036: COMPONENT20
+    100038: COMPONENT21
+    100040: COMPONENT22
+    100042: COMPONENT23
+    100044: COMPONENT24
+    100046: COMPONENT25
+    100048: COMPONENT26
+    100050: COMPONENT27
+    100052: COMPONENT28
+    100054: COMPONENT30
+    100056: COMPONENT30 1
+    100058: COMPONENT30 2
+    100060: COMPONENT30 3
+    100062: COMPONENT4
+    100064: COMPONENT5
+    100066: COMPONENT51
+    100068: COMPONENT6
+    100070: COMPONENT7
+    100072: COMPONENT8
+    100074: COMPONENT9
+    100076: FullRovComponent
+    100078: Group 11
+    100080: Group 14
+    100082: Group 18
+    100084: Group 21
+    100086: Group 24
+    100088: Group 27
+    100090: Group 5
+    100092: Group 66
+    100094: Group 68
+    100096: Group 70
+    100098: Group 72
+    100100: Group 73
+    100102: Group 75
+    100104: Group 77
+    100106: Group 78
+    100108: Group 8
+    100110: Group 80
+    100112: Group 82
+    100114: Group 84
+    100116: Group 86
+    100118: LED
+    100120: LED 1
+    100122: //RootNode
+    100124: Port Batteries
+    100126: Port Propellor Assembly
+    100128: PropellerComponent
+    100130: PropellerComponent 1
+    100132: PropellorHousingAttachment
+    100134: PropellorHousingAttachment 1
+    100136: PropellorShield
+    100138: PropellorShield 1
+    100140: Starboard Batteries
+    100142: Starboard Propellor Assembly
+    100144: ThrustMarker
+    100146: ThrustMarker 1
+    100148: VerticalThrustMarker
+    100150: Group 100
+    100152: Group 101
+    100154: Group 103
+    100156: Group 105
+    100158: Group 106
+    100160: Group 108
+    100162: Group 110
+    100164: Group 112
+    100166: Group 114
+    100168: Group 94
+    100170: Group 96
+    100172: Group 98
+    100174: Horizontal Support Rods
+    100176: Lights
+    100178: Port LED
+    100180: Starboard LED
+    100182: Structure
+    400000: C Battery
+    400002: C Battery 1
+    400004: C Battery 2
+    400006: C Battery 3
+    400008: C Battery 4
+    400010: C Battery 5
+    400012: C Battery 6
+    400014: C Battery 7
+    400016: Camera
+    400018: COMPONENT10
+    400020: COMPONENT11
+    400022: COMPONENT12
+    400024: COMPONENT13
+    400026: COMPONENT14
+    400028: COMPONENT15
+    400030: COMPONENT16
+    400032: COMPONENT18
+    400034: COMPONENT19
+    400036: COMPONENT20
+    400038: COMPONENT21
+    400040: COMPONENT22
+    400042: COMPONENT23
+    400044: COMPONENT24
+    400046: COMPONENT25
+    400048: COMPONENT26
+    400050: COMPONENT27
+    400052: COMPONENT28
+    400054: COMPONENT30
+    400056: COMPONENT30 1
+    400058: COMPONENT30 2
+    400060: COMPONENT30 3
+    400062: COMPONENT4
+    400064: COMPONENT5
+    400066: COMPONENT51
+    400068: COMPONENT6
+    400070: COMPONENT7
+    400072: COMPONENT8
+    400074: COMPONENT9
+    400076: FullRovComponent
+    400078: Group 11
+    400080: Group 14
+    400082: Group 18
+    400084: Group 21
+    400086: Group 24
+    400088: Group 27
+    400090: Group 5
+    400092: Group 66
+    400094: Group 68
+    400096: Group 70
+    400098: Group 72
+    400100: Group 73
+    400102: Group 75
+    400104: Group 77
+    400106: Group 78
+    400108: Group 8
+    400110: Group 80
+    400112: Group 82
+    400114: Group 84
+    400116: Group 86
+    400118: LED
+    400120: LED 1
+    400122: //RootNode
+    400124: Port Batteries
+    400126: Port Propellor Assembly
+    400128: PropellerComponent
+    400130: PropellerComponent 1
+    400132: PropellorHousingAttachment
+    400134: PropellorHousingAttachment 1
+    400136: PropellorShield
+    400138: PropellorShield 1
+    400140: Starboard Batteries
+    400142: Starboard Propellor Assembly
+    400144: ThrustMarker
+    400146: ThrustMarker 1
+    400148: VerticalThrustMarker
+    400150: Group 100
+    400152: Group 101
+    400154: Group 103
+    400156: Group 105
+    400158: Group 106
+    400160: Group 108
+    400162: Group 110
+    400164: Group 112
+    400166: Group 114
+    400168: Group 94
+    400170: Group 96
+    400172: Group 98
+    400174: Horizontal Support Rods
+    400176: Lights
+    400178: Port LED
+    400180: Starboard LED
+    400182: Structure
+    2300000: COMPONENT10
+    2300002: COMPONENT12
+    2300004: COMPONENT13
+    2300006: COMPONENT14
+    2300008: COMPONENT15
+    2300010: COMPONENT16
+    2300012: COMPONENT18
+    2300014: COMPONENT19
+    2300016: COMPONENT20
+    2300018: COMPONENT21
+    2300020: COMPONENT22
+    2300022: COMPONENT23
+    2300024: COMPONENT24
+    2300026: COMPONENT25
+    2300028: COMPONENT26
+    2300030: COMPONENT27
+    2300032: COMPONENT28
+    2300034: COMPONENT30
+    2300036: COMPONENT30 1
+    2300038: COMPONENT30 2
+    2300040: COMPONENT30 3
+    2300042: COMPONENT4
+    2300044: COMPONENT5
+    2300046: COMPONENT51
+    2300048: COMPONENT6
+    2300050: COMPONENT7
+    2300052: COMPONENT8
+    2300054: COMPONENT9
+    2300056: FullRovComponent
+    2300058: Group 11
+    2300060: Group 14
+    2300062: Group 18
+    2300064: Group 21
+    2300066: Group 24
+    2300068: Group 27
+    2300070: Group 5
+    2300072: Group 66
+    2300074: Group 68
+    2300076: Group 70
+    2300078: Group 73
+    2300080: Group 75
+    2300082: Group 78
+    2300084: Group 8
+    2300086: Group 80
+    2300088: Group 82
+    2300090: Group 84
+    2300092: Group 86
+    2300094: LED
+    2300096: LED 1
+    2300098: Port Propellor Assembly
+    2300100: PropellerComponent
+    2300102: PropellerComponent 1
+    2300104: PropellorHousingAttachment
+    2300106: PropellorHousingAttachment 1
+    2300108: PropellorShield
+    2300110: PropellorShield 1
+    2300112: Starboard Propellor Assembly
+    2300114: ThrustMarker
+    2300116: ThrustMarker 1
+    2300118: VerticalThrustMarker
+    2300120: Group 101
+    2300122: Group 103
+    2300124: Group 106
+    2300126: Group 108
+    2300128: Group 110
+    2300130: Group 112
+    2300132: Group 114
+    2300134: Group 94
+    2300136: Group 96
+    2300138: Group 98
+    2300140: Port LED
+    2300142: Starboard LED
+    3300000: COMPONENT10
+    3300002: COMPONENT12
+    3300004: COMPONENT13
+    3300006: COMPONENT14
+    3300008: COMPONENT15
+    3300010: COMPONENT16
+    3300012: COMPONENT18
+    3300014: COMPONENT19
+    3300016: COMPONENT20
+    3300018: COMPONENT21
+    3300020: COMPONENT22
+    3300022: COMPONENT23
+    3300024: COMPONENT24
+    3300026: COMPONENT25
+    3300028: COMPONENT26
+    3300030: COMPONENT27
+    3300032: COMPONENT28
+    3300034: COMPONENT30
+    3300036: COMPONENT30 1
+    3300038: COMPONENT30 2
+    3300040: COMPONENT30 3
+    3300042: COMPONENT4
+    3300044: COMPONENT5
+    3300046: COMPONENT51
+    3300048: COMPONENT6
+    3300050: COMPONENT7
+    3300052: COMPONENT8
+    3300054: COMPONENT9
+    3300056: FullRovComponent
+    3300058: Group 11
+    3300060: Group 14
+    3300062: Group 18
+    3300064: Group 21
+    3300066: Group 24
+    3300068: Group 27
+    3300070: Group 5
+    3300072: Group 66
+    3300074: Group 68
+    3300076: Group 70
+    3300078: Group 73
+    3300080: Group 75
+    3300082: Group 78
+    3300084: Group 8
+    3300086: Group 80
+    3300088: Group 82
+    3300090: Group 84
+    3300092: Group 86
+    3300094: LED
+    3300096: LED 1
+    3300098: Port Propellor Assembly
+    3300100: PropellerComponent
+    3300102: PropellerComponent 1
+    3300104: PropellorHousingAttachment
+    3300106: PropellorHousingAttachment 1
+    3300108: PropellorShield
+    3300110: PropellorShield 1
+    3300112: Starboard Propellor Assembly
+    3300114: ThrustMarker
+    3300116: ThrustMarker 1
+    3300118: VerticalThrustMarker
+    3300120: Group 101
+    3300122: Group 103
+    3300124: Group 106
+    3300126: Group 108
+    3300128: Group 110
+    3300130: Group 112
+    3300132: Group 114
+    3300134: Group 94
+    3300136: Group 96
+    3300138: Group 98
+    3300140: Port LED
+    3300142: Starboard LED
+    4300000: Mesh FullRovComponent
+    4300002: Mesh Group 5
+    4300004: Mesh COMPONENT30
+    4300006: Mesh COMPONENT5
+    4300008: Mesh COMPONENT4
+    4300010: Mesh COMPONENT9
+    4300012: Mesh COMPONENT20
+    4300014: Mesh COMPONENT28
+    4300016: Mesh COMPONENT21
+    4300018: Mesh COMPONENT22
+    4300020: Mesh COMPONENT25
+    4300022: Mesh COMPONENT19
+    4300024: Mesh COMPONENT26
+    4300026: Mesh LED
+    4300028: Mesh COMPONENT51
+    4300030: Mesh Group 66
+    4300032: Mesh Group 68
+    4300034: Mesh Group 70
+    4300036: Mesh Group 73
+    4300038: Mesh Group 75
+    4300040: Mesh Group 78
+    4300042: Mesh Group 80
+    4300044: Mesh Group 82
+    4300046: Mesh Group 84
+    4300048: Mesh Group 86
+    4300050: Mesh COMPONENT6
+    4300052: Mesh COMPONENT12
+    4300054: Mesh COMPONENT13
+    4300056: Mesh COMPONENT14
+    4300058: Mesh COMPONENT16
+    4300060: Mesh Port Propellor Assembly
+    4300062: Mesh PropellorShield
+    4300064: Mesh PropellerComponent
+    4300066: Mesh ThrustMarker
+    4300068: Mesh PropellorHousingAttachment
+    4300070: Mesh VerticalThrustMarker
+    4300072: Mesh Port LED
+    4300074: Mesh Group 94
+    4300076: Mesh Group 96
+    4300078: Mesh Group 98
+    4300080: Mesh Group 101
+    4300082: Mesh Group 103
+    4300084: Mesh Group 106
+    4300086: Mesh Group 108
+    4300088: Mesh Group 110
+    4300090: Mesh Group 112
+    4300092: Mesh Group 114
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
