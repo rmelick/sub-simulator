@@ -256,6 +256,10 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 1a1e5fb4f085140bea5ac37d994f52b4, type: 3}
+--- !u!1 &434026967 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: baec086904791744185aaa07a6cf55c2, type: 2}
+  m_PrefabInternal: {fileID: 1770434871}
 --- !u!1 &542118373
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,10 +287,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f56a35daf2628490f8f4c784750d89a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRigs:
-  - {fileID: 1535339105}
+  _cameraRigs:
+  - {fileID: 434026967}
   - {fileID: 1587630973}
-  cameraIndex: 0
+  _cameraIndex: 0
 --- !u!4 &542118375
 Transform:
   m_ObjectHideFlags: 0
@@ -300,6 +304,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!1 &551226267 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100144, guid: bf4bcd3fb23af4841a565b83f4585df9, type: 3}
+  m_PrefabInternal: {fileID: 1310373992}
 --- !u!1 &560012979 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100122, guid: bf4bcd3fb23af4841a565b83f4585df9, type: 3}
@@ -316,7 +324,7 @@ ConstantForce:
   m_GameObject: {fileID: 560012979}
   m_Enabled: 1
   m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 8.2, z: 0}
+  m_RelativeForce: {x: 0, y: 9.7, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!54 &560012982
@@ -334,6 +342,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &560012983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 560012979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d5c9ef92771439db04ca8abad86b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _verticalThrusterMarker: {fileID: 1363004733}
+  _starboardThrusterMarker: {fileID: 1419228471}
+  _portThrusterMarker: {fileID: 551226267}
+  _thrustPower: 0.01
+  _rayDistance: 10
 --- !u!1 &882895197
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,10 +573,14 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400016, guid: bf4bcd3fb23af4841a565b83f4585df9, type: 3}
   m_PrefabInternal: {fileID: 1310373992}
---- !u!1 &1535339105 stripped
+--- !u!1 &1363004733 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: baec086904791744185aaa07a6cf55c2, type: 2}
-  m_PrefabInternal: {fileID: 1770434871}
+  m_PrefabParentObject: {fileID: 100148, guid: bf4bcd3fb23af4841a565b83f4585df9, type: 3}
+  m_PrefabInternal: {fileID: 1310373992}
+--- !u!1 &1419228471 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100146, guid: bf4bcd3fb23af4841a565b83f4585df9, type: 3}
+  m_PrefabInternal: {fileID: 1310373992}
 --- !u!1 &1587630973
 GameObject:
   m_ObjectHideFlags: 0

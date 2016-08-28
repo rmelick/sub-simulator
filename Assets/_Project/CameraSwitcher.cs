@@ -2,28 +2,28 @@
 using System.Collections;
 
 public class CameraSwitcher : MonoBehaviour {
-	public GameObject[] cameraRigs;
-	public int cameraIndex = 0;
+	public GameObject[] _cameraRigs;
+	public int _cameraIndex = 0;
 
 	// Use this for initialization
 	void Start () {
 		// disable all but the initial camera
-		int i = Arrays.next(cameraRigs, cameraIndex);
-		while (i != cameraIndex) {
+		int i = Arrays.next(_cameraRigs, _cameraIndex);
+		while (i != _cameraIndex) {
 			Debug.Log("Deactivating camera " + i);
-			cameraRigs[i].SetActive(false);
-			i = Arrays.next(cameraRigs, i);
+			_cameraRigs[i].SetActive(false);
+			i = Arrays.next(_cameraRigs, i);
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown(Buttons.SWITCH_CAMERA)) {
-			int newIndex = Arrays.next(cameraRigs, cameraIndex);
+			int newIndex = Arrays.next(_cameraRigs, _cameraIndex);
 			Debug.Log("Setting active camera to " + newIndex);
-			cameraRigs[newIndex].SetActive(true);
-			cameraRigs[cameraIndex].SetActive(false);
-			cameraIndex = newIndex;
+			_cameraRigs[newIndex].SetActive(true);
+			_cameraRigs[_cameraIndex].SetActive(false);
+			_cameraIndex = newIndex;
 		}
 	}
 }

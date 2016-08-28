@@ -312,9 +312,9 @@ InputManager:
   - serializedVersion: 3
     m_Name: Depth
     descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
+    descriptiveNegativeName: Positive goes up
+    negativeButton: left ctrl
+    positiveButton: left shift
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3
